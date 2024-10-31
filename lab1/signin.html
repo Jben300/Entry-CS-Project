@@ -1,0 +1,57 @@
+<?php include('Submit.php') 
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Sign in page</title>
+    <link rel="stylesheet" href="signin.css">
+
+</head>
+<body>
+    <div class="main">
+        <a href="Home.html">
+        <img src="logo/logo-removebg-preview.png" alt="">
+        </a>
+
+        <div id="signInBorder">
+            <p id="SignInTxt">Sign In</p>
+        </div>
+        <form method="post" action="Submit.php">
+        <label for="">
+            <strong>Email (Phone for mobile accounts)</strong>
+            <br>
+            <input type="email" name="email" id="email" required>
+        </label>
+        <br>
+        <label for="">
+            <strong>Password</strong>
+            <span><a href="#" id="password">forgot your password</a></span>
+            <br>
+            <input type="password" name="password" id="" required>
+        </label>
+            <div>
+                <button id="bookhaven">Sign In</button>
+        </form>
+                <div id="creatAccount">
+                    <h2><span>New to Book Haven?</span></h2>
+                    <button id="newAccount" name="newAcct">Create your Book Haven account</button>
+                </div>
+            </div>
+            <hr id="footer">
+            <div id="extra">
+                <p id="links"><a href="#" id="first">Conditions of use</a>
+                <a href="#">Notice of use</a>
+                <a href="#">Help</a></p>
+                <p class="links" id="special">2021-2024, BookHaven.com, Inc. or its affiliates</p>
+
+            </div>
+    </div>
+
+
+</body>
+</html>

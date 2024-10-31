@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dadada;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131921;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.nav-country{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+
+.nav-country h1{
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color:gray;
+    max-width: 1000px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background: #e5e5e5;
+    border-radius: 4px 0 0 4px ;
+}
+
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.nav-search-icon{
+    max-width: 41px;
+    padding: 8px;
+    background:#8c82fc;
+    border: 0 4px 4px 0;
+}
+
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.nav-text{
+    margin-left: 15px;
+}
+
+.nav-text p{
+    font-size: 10px;
+}
+
+.nav-text h1{
+    font-size: 14px;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+/*Hero section*/
+
+#hero{
+    background: url('assets/anime.png') no-repeat center center/cover;
+    height: 620px;
+    background-size: cover;
+    padding: 0 80px;
+    font-size: 35px;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    color: white;
+}
+
+#hero h1{
+    color: #8c82fc;
+}
+
+#hero h2{
+    color: white;
+}
+
+#hero p{
+    color: white;
+}
+
+#hero button{
+    background-color: #8c82fc;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+    background-color: #131921;
+    color: white;
+}
+
+
+#book1{
+    text-align: center;
+    
+}
+
+#book1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#book1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid; 
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    position: relative;
+}
+
+
+#book1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#book1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#book1 .pro .des span{
+    color: #8c82fc;
+    font-size: 12px;
+}
+
+#book1 .pro .des h5{
+    padding-top: 7px;
+    color: white;
+    font-size: 14px;
+}
+
+#book1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#book1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+}
+
+#book1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.latest-news {
+    background-color: #131921;
+    padding: 40px;
+}
+.latest-news h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #8c82fc;
+}
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.news-article {
+    width: 30%;
+    background-color: #8c82fc;
+    padding: 15px;
+    border-radius: 8px;
+    float: left;
+    justify-content: center;
+}
+.news-article h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#moregenres{
+    background: url('assets/pngtree-colorful-anime-style-sunset-landscape-wallpaper-image_16012950.jpg') no-repeat center center/cover;
+    height: 620px;
+    background-size: cover;
+    padding: 0 80px;
+    padding-left: 505px;
+    font-size: 35px;
+}
+
+#moregenres button{
+    background-color: #131921;
+    color: #8c82fc;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 65px;
+}
+
